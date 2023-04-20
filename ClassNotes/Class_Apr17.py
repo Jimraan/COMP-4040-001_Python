@@ -58,8 +58,8 @@ import pandas as pd
 
 
 # *Example 7*
-students = {'First Name': pd.Series(['John', 'Mary', 'Joshua', 'Jack']),
-            'Last Name': pd.Series(['Doe', 'Jennings', 'Smith', 'Daniel']),
+students = {'First Name': pd.Series(['John', 'Mary', 'Joshua', 'Jack', 'Mike', "James"]),
+            'Last Name': pd.Series(['Doe', 'Jennings', 'Smith', 'Daniel', 'Henry', 'Johnson']),
             'Grade': pd.Series([90, 88, 96, 83])}
 df = pd.DataFrame(students)
 print(df)
